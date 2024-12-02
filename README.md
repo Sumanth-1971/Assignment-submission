@@ -11,11 +11,12 @@ Admins can review and update the status of submissions.
 Validation and Middleware:
 Middleware for authentication and validation ensures secure and accurate data handling.
 Error Handling: Comprehensive error handling for robust API responses.
+
 Project Structure
 The directory structure is clean, with a clear separation of concerns for controllers, routes, models, middleware, and utility functions.
 
-plaintext
-Copy code
+
+This is the project structure:
 assignment-submission-portal/
 │
 ├── src/
@@ -47,6 +48,8 @@ assignment-submission-portal/
 ├── tsconfig.json               # TypeScript configuration
 ├── package.json                # Node.js dependencies and scripts
 └── README.md                   # Project documentation
+
+
 Key Components
 1. Models
 User.ts: Defines the schema for student users, including fields like username, email, password.
@@ -96,3 +99,4 @@ Validation: express-validator
 Security: jsonwebtoken, bcrypt
 Development: typescript, ts-node-dev
 This setup ensures a scalable and maintainable backend for the Assignment Submission Portal, facilitating secure and efficient assignment management for users and admins.
+
